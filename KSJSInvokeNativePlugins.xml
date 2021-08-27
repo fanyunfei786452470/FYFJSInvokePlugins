@@ -1,0 +1,26 @@
+<!--H5调用原生插件的说明文档-->
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+<!--基础公共插件-->
+    <item name="100000" value="KSPlugin100000" description="socket网络请求"></item>
+    <item name="100001" value="KSPlugin100001" description="打开原生分享组件"></item>
+    <item name="100002" value="KSPlugin100002" description="web中调用分享"></item>
+    <item name="100003" value="KSPlugin100003" description="关闭WebView"></item>
+    <item name="100004" value="KSPlugin100004" description="调用WebView的goBack"></item>
+    <item name="100005" value="KSPlugin100005" description="获取用户信息"></item>
+    <item name="100006" value="KSPlugin100006" description="web跳原生路由"></item>
+
+<!--掌厅模块插件-->
+
+<!--开户模块插件-->
+
+<!--交易模块插件-->
+
+<!--分享模块插件-->
+
+<!--行情模块插件-->
+
+<!--文件下载模块插件-->
+
+    
+</plugins>
