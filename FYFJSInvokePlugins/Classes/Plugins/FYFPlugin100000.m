@@ -6,15 +6,15 @@
 //
 
 #import "FYFPlugin100000.h"
-#import <FYFWebComponent/KSPluginResult.h>
+#import <FYFWebComponent/FYFPluginResult.h>
 
 @implementation FYFPlugin100000
 
 - (void)serverInvoke:(id)param {
     NSDictionary *dict = @{@"token":@"faljflajflalfjlajfljalfjalsjflajslfjlasjfkl",
                            @"userId":@"userId"};
-    KSPluginResult *result = [[KSPluginResult alloc] init];
-    result.errorNo = KSPLUGIN_ERROR_NO_SUCCESS;
+    FYFPluginResult *result = [[FYFPluginResult alloc] init];
+    result.errorNo = FYFPLUGIN_ERROR_NO_SUCCESS;
     result.errorInfo = @"请求成功";
     result.results = dict;
     

@@ -1,5 +1,5 @@
 
-source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
 
@@ -7,10 +7,7 @@ platform :ios, '9.0'
 
 target 'FYFJSInvokePlugins_Example' do
   pod 'FYFJSInvokePlugins', :path => '../'
-  pod 'FYFWebComponent', :git => 'https://github.com/fanyunfei786452470/FYFWebComponent.git'
-  pod 'FYFCategory', :git => 'https://github.com/fanyunfei786452470/FYFCategory.git'
-  pod 'FYFDefines', :git => 'https://github.com/fanyunfei786452470/FYFDefines.git'
-  pod 'FYFDeviceInfo', :git => 'https://github.com/fanyunfei786452470/FYFDeviceInfo.git'
+  pod 'FYFWebComponent','~>0.1.0'
   
   target 'FYFJSInvokePlugins_Tests' do
     inherit! :search_paths
