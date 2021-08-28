@@ -7,7 +7,7 @@ platform :ios, '9.0'
 
 target 'FYFJSInvokePlugins_Example' do
   pod 'FYFJSInvokePlugins', :path => '../'
-  pod 'FYFWebComponent','~>0.1.0'
+  pod 'FYFWebComponent'
   
   target 'FYFJSInvokePlugins_Tests' do
     inherit! :search_paths
